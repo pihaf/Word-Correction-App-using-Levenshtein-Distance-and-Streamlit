@@ -5,6 +5,6 @@ def test_levenshtein_distance():
     assert levenshtein_distance('hola', 'hello') == 3
 
 def test_load_vocab():
-    vocabs = load_vocab(file_path='../data/vocab.txt')
+    vocabs = load_vocab(file_path='data/vocab.txt')
     assert len(vocabs) > 0
     assert all(isinstance(word, str) for word in vocabs)

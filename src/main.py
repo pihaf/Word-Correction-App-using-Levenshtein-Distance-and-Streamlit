@@ -1,8 +1,11 @@
 import streamlit as st
+import os
 from levenshtein_distance import levenshtein_distance
 
 def load_vocab(file_path):
-    with open(file_path, 'r') as f:
+    base_path = os.path.dirname(__file__)
+    abs_file_path = os.path.join(base_path, file_path)
+    with open(abs_file_path, 'r') as f:
         lines = f.readlines()
     words = sorted(set([line.strip().lower() for line in lines]))
     return words
