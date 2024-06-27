@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "pihaf",
+        "projectKey": "pihaf_Word-Correction-App-using-Levenshtein-Distance-and-Streamlit"
+    }
+}
