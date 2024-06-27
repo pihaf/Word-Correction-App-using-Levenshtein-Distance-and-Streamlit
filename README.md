@@ -28,6 +28,8 @@ To run this app locally, you'll need to have Python installed. Follow these step
     ```bash
     pip install streamlit
     ```
+    
+**Notes:** To use the app, after installation, you only need the `src` folder to run the app, other folder and files are sonarcloud configurations. You can delete other files and folders.
 
 ## Running the App
 
