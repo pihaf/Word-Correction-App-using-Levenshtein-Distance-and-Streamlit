@@ -15,7 +15,6 @@ To run this app locally, you'll need to have Python installed. Follow these step
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/pihaf/Word-Correction-App-using-Levenshtein-Distance-and-Streamlit.git
-    cd word-correction-app
     ```
 
 2. **Create a virtual environment** (optional):
